@@ -1,31 +1,132 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/gui-l/OneDrive/Bureau/Wolf'orest/wolforest/Wolf'Orest/Wolf'Orest/Packages/manifest.json
+    m_FilePath: C:/Users/franc/OneDrive/Bureau/Wolf-Orest/wolforest/wolforest/Wolf'Orest/Wolf'Orest/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637502191415863883
-    m_Hash: 3792016944
+      ticks: 637502828321351363
+    m_Hash: 600168842
   m_LockFileStatus:
-    m_FilePath: C:/Users/gui-l/OneDrive/Bureau/Wolf'orest/wolforest/Wolf'Orest/Wolf'Orest/Packages/packages-lock.json
+    m_FilePath: C:/Users/franc/OneDrive/Bureau/Wolf-Orest/wolforest/wolforest/Wolf'Orest/Wolf'Orest/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637502208388234053
-    m_Hash: 2739831012
+      ticks: 637502828326328060
+    m_Hash: 3095297913
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.unity.2d.sprite@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite
+      assetPath: Packages/com.unity.2d.sprite
+      name: com.unity.2d.sprite
+      displayName: 2D Sprite
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: Use Unity Sprite Editor Window to create and edit Sprite asset
+        properties like pivot, borders and Physics shape
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - sprite
+      - sprite editor window
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.2d.tilemap@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap
+      assetPath: Packages/com.unity.2d.tilemap
+      name: com.unity.2d.tilemap
+      displayName: 2D Tilemap Editor
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: 2D Tilemap Editor is a package that contains editor functionalities
+        for editing Tilemaps.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - Tilemap
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
     - packageId: com.unity.collab-proxy@1.3.9
       testable: 0
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\Wolf'orest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\Wolf-Orest\wolforest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -120,7 +221,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\Wolf'orest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\Wolf-Orest\wolforest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -221,7 +322,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.5
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\Wolf'orest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\Wolf-Orest\wolforest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -292,7 +393,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\Wolf'orest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\Wolf-Orest\wolforest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -361,7 +462,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.20
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\Wolf'orest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.test-framework@1.1.20
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\Wolf-Orest\wolforest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.test-framework@1.1.20
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -449,7 +550,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\Wolf'orest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\Wolf-Orest\wolforest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -600,7 +701,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.5
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\Wolf'orest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.timeline@1.4.5
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\Wolf-Orest\wolforest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.timeline@1.4.5
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2576,7 +2677,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\Wolf'orest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\Wolf-Orest\wolforest\wolforest\Wolf'Orest\Wolf'Orest\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2592,8 +2693,18 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         verified: 1.0.6
       dependencies: []
@@ -2614,7 +2725,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -2624,5 +2735,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/gui-l/OneDrive/Bureau/Wolf'orest/wolforest/Wolf'Orest/Wolf'Orest/Packages
+m_ProjectPath: C:/Users/franc/OneDrive/Bureau/Wolf-Orest/wolforest/wolforest/Wolf'Orest/Wolf'Orest/Packages
 m_EditorVersion: 2020.2.3f1 (8ff31bc5bf5b)
