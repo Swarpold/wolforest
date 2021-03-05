@@ -27,8 +27,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.ServerSettings
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -1621,4 +1619,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/Chiche Eliott/Desktop/Build/Wolf'Orest.exe
+  playerPath: C:/Users/gui-l/OneDrive/Bureau/Wolf'Orest.exe
