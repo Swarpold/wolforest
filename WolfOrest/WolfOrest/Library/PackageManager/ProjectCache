@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637546133398998550
     m_Hash: 1246347406
+=======
+      ticks: 637541018205144162
+    m_Hash: 2518973661
+>>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
   m_LockFileStatus:
     m_FilePath: C:/Users/Chiche Eliott/Desktop/15 avril/zefz/wolforest/WolfOrest/WolfOrest/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637546135782774816
     m_Hash: 4231147085
+=======
+      ticks: 637541024609008500
+    m_Hash: 3095297913
+>>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -461,6 +471,7 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
+<<<<<<< HEAD
     - packageId: com.unity.postprocessing@3.0.3
       testable: 0
       isDirectDependency: 1
@@ -548,6 +559,8 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/Graphics.git
         revision: 267c9ab2b6aae8e296d78e27ca27af29b3bc7606
         path: 
+=======
+>>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
     - packageId: com.unity.test-framework@1.1.20
       testable: 0
       isDirectDependency: 1
@@ -714,7 +727,6 @@ m_PackageAssets:
         - 1.5.1
         - 1.5.3
         - 1.5.4
-        - 1.5.5
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -734,7 +746,6 @@ m_PackageAssets:
         - 2.1.1
         - 2.1.3
         - 2.1.4
-        - 2.1.5
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -750,13 +761,11 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.3
         - 3.0.4
-        - 3.0.5
         compatible:
         - 3.0.1
         - 3.0.3
         - 3.0.4
-        - 3.0.5
-        verified: 3.0.5
+        verified: 3.0.4
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
