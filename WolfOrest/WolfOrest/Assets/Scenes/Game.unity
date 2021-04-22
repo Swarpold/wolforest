@@ -61195,12 +61195,9 @@ GameObject:
   - component: {fileID: 1317317582}
 <<<<<<< HEAD
   - component: {fileID: 1317317583}
-<<<<<<< HEAD
   - component: {fileID: 1317317584}
 =======
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
-=======
->>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -61269,6 +61266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 250
   rb: {fileID: 1317317577}
+  animator: {fileID: 1317317584}
 --- !u!212 &1317317580
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -61368,7 +61366,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.24}
   serializedVersion: 2
   m_Radius: 0.3812027
-<<<<<<< HEAD
 --- !u!95 &1317317584
 Animator:
   serializedVersion: 3
@@ -61390,8 +61387,6 @@ Animator:
   m_KeepAnimatorControllerStateOnDisable: 0
 =======
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
-=======
->>>>>>> parent of 7767f4be (pour toi mon reuf)
 --- !u!1 &1411522777
 GameObject:
   m_ObjectHideFlags: 0
