@@ -44,7 +44,11 @@ MonoBehaviour:
     height: 998
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Game
+=======
+  m_Title: Scene
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 392}
 =======
@@ -126,10 +130,10 @@ MonoBehaviour:
 <<<<<<< HEAD
     width: 1920
     height: 957
-  m_MinSize: {x: 679, y: 342}
-  m_MaxSize: {x: 12004, y: 8042}
+  m_MinSize: {x: 678, y: 342}
+  m_MaxSize: {x: 12003, y: 8042}
   vertical: 0
-  controlID: 45
+  controlID: 113
 --- !u!114 &3
 =======
     width: 958
@@ -155,14 +159,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1540
+=======
+    x: 1580
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
     y: 0
-    width: 380
+    width: 340
     height: 957
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
   m_Panes:
+<<<<<<< HEAD
   - {fileID: 15}
   - {fileID: 13}
 =======
@@ -177,6 +186,10 @@ MonoBehaviour:
   - {fileID: 18}
   - {fileID: 16}
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+  - {fileID: 14}
+  - {fileID: 12}
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &7
@@ -197,12 +210,18 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 450
     height: 683
+=======
+    width: 464
+    height: 701
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
+<<<<<<< HEAD
   - {fileID: 16}
 =======
     width: 201
@@ -213,6 +232,9 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 19}
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+  - {fileID: 15}
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &8
@@ -232,15 +254,24 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 683
     width: 1540
     height: 274
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
+=======
+    y: 701
+    width: 1580
+    height: 256
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 19}
+  - {fileID: 13}
+  - {fileID: 18}
   m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &6
@@ -308,12 +339,17 @@ MonoBehaviour:
   m_MaxSize: {x: 0, y: 0}
   m_LoadedToolbars:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 20}
   m_MainToolbar: {fileID: 20}
 =======
   - {fileID: 23}
   m_MainToolbar: {fileID: 23}
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+  - {fileID: 19}
+  m_MainToolbar: {fileID: 19}
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_LastLoadedLayoutName: 
 --- !u!114 &11
 MonoBehaviour:
@@ -356,12 +392,16 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1540
+=======
+    width: 1580
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
     height: 957
   m_MinSize: {x: 403, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 46
+  controlID: 114
 --- !u!114 &10
 =======
     width: 682
@@ -391,12 +431,17 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1540
     height: 683
+=======
+    width: 1580
+    height: 701
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 47
+  controlID: 115
 --- !u!114 &11
 =======
     width: 682
@@ -416,25 +461,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 450
+=======
+    x: 464
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
     y: 0
-    width: 1090
-    height: 683
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+    width: 1116
+    height: 701
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
   m_Panes:
+  - {fileID: 16}
   - {fileID: 17}
-  - {fileID: 18}
-  - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 2
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 =======
     x: 201
@@ -490,67 +538,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 450
-    y: 73
-    width: 1088
-    height: 662
-  m_ViewDataDictionary: {fileID: 0}
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: -5836710386157710562, guid: f1060e258c1f0cd4aa119a47a2a768f3, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 0.80419797
-      e01: 0
-      e02: 0
-      e03: -86.47293
-      e10: 0
-      e11: 0.80419797
-      e12: 0
-      e13: 95.161316
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: f1060e258c1f0cd4aa119a47a2a768f3, type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: -5836710386157710562, guid: f1060e258c1f0cd4aa119a47a2a768f3, type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 1
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 12402, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -568,10 +555,14 @@ MonoBehaviour:
     height: 926
   m_ViewDataDictionary: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &14
 =======
 --- !u!114 &17
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+--- !u!114 &13
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -593,6 +584,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
     x: 0
+<<<<<<< HEAD
     y: 756
     width: 1539
     height: 253
@@ -602,6 +594,11 @@ MonoBehaviour:
     width: 681
     height: 255
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+    y: 751
+    width: 1368
+    height: 258
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -624,12 +621,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/imports
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Chiche Eliott\Desktop\15 avril\zefz\wolforest\WolfOrest\WolfOrest
+  m_LastProjectPath: C:\Users\Chiche Eliott\Desktop\15 avril\wolforest\WolfOrest\WolfOrest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 82410000
     m_LastClickedID: 16770
     m_ExpandedIDs: 000000003a4100008c41000000ca9a3b
@@ -639,6 +637,11 @@ MonoBehaviour:
     m_LastClickedID: 16214
     m_ExpandedIDs: 000000004e3f000000ca9a3b
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+    m_SelectedIDs: 18520000
+    m_LastClickedID: 21016
+    m_ExpandedIDs: 000000000452000000ca9a3b
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,10 +670,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000003a410000
 =======
     m_ExpandedIDs: 000000004e3f0000
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+    m_ExpandedIDs: 0000000004520000
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -696,6 +703,7 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 123f0000
     m_LastClickedInstanceID: 16146
     m_HadKeyboardFocusLastEvent: 1
@@ -706,6 +714,12 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e2450000e84500006a430000c06a0000d6550000f0420000da460000cc460000
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+    m_SelectedInstanceIDs: aa500000
+    m_LastClickedInstanceID: 20650
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000e2450000e84500006a430000c06a0000d6550000f0420000da460000cc460000d24f0000
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -734,10 +748,14 @@ MonoBehaviour:
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &15
 =======
 --- !u!114 &18
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+--- !u!114 &14
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -758,9 +776,13 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1540
+=======
+    x: 1580
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
     y: 73
-    width: 379
+    width: 339
     height: 936
 =======
     x: 1643
@@ -772,7 +794,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 334
+    m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -782,10 +804,14 @@ MonoBehaviour:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &16
 =======
 --- !u!114 &19
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+--- !u!114 &15
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -808,6 +834,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     x: 0
     y: 73
+<<<<<<< HEAD
     width: 449
     height: 662
 =======
@@ -816,10 +843,15 @@ MonoBehaviour:
     width: 200
     height: 651
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+    width: 463
+    height: 680
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
       m_SelectedIDs: 123f0000
       m_LastClickedID: 16146
@@ -829,6 +861,11 @@ MonoBehaviour:
       m_LastClickedID: 15804
       m_ExpandedIDs: 4efbffffa03d0000
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+      m_SelectedIDs: ceefffff
+      m_LastClickedID: -4146
+      m_ExpandedIDs: 76f7ffffb2500000
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -853,10 +890,14 @@ MonoBehaviour:
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &17
 =======
 --- !u!114 &20
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+--- !u!114 &16
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -877,6 +918,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 401
     y: 73
     width: 966
@@ -887,6 +929,12 @@ MonoBehaviour:
     width: 479
     height: 651
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+    x: 464
+    y: 73
+    width: 1114
+    height: 680
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -900,6 +948,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 979.9939, y: 251.85684, z: -1203.5315}
     speed: 2
     m_Value: {x: 979.9939, y: 251.85684, z: -1203.5315}
@@ -908,6 +957,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 994.49225, y: 261.7307, z: -1192.0726}
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+    m_Target: {x: 979.0803, y: 254.03033, z: -1203.0493}
+    speed: 2
+    m_Value: {x: 979.0803, y: 254.03033, z: -1203.0493}
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -959,6 +1013,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 2.2914336
     speed: 2
     m_Value: 2.2914336
@@ -967,6 +1022,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 21.207195
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+    m_Target: 8.317883
+    speed: 2
+    m_Value: 8.317883
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -992,10 +1052,14 @@ MonoBehaviour:
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &18
 =======
 --- !u!114 &21
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+--- !u!114 &17
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1016,6 +1080,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 450
     y: 73
     width: 1088
@@ -1026,6 +1091,12 @@ MonoBehaviour:
     width: 964
     height: 657
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+    x: 464
+    y: 73
+    width: 1114
+    height: 680
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -1034,10 +1105,14 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 1088, y: 641}
 =======
   m_TargetSize: {x: 964, y: 636}
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+  m_TargetSize: {x: 1114, y: 659}
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1053,6 +1128,7 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -544
     m_HBaseRangeMax: 544
     m_VBaseRangeMin: -320.5
@@ -1063,15 +1139,21 @@ MonoBehaviour:
     m_VBaseRangeMin: -328.5
     m_VBaseRangeMax: 328.5
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+    m_HBaseRangeMin: -557
+    m_HBaseRangeMax: 557
+    m_VBaseRangeMin: -329.5
+    m_VBaseRangeMax: 329.5
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1081,6 +1163,7 @@ MonoBehaviour:
       x: 0
 <<<<<<< HEAD
       y: 21
+<<<<<<< HEAD
       width: 1088
       height: 641
     m_Scale: {x: 1.8344841, y: 1.8344842}
@@ -1092,12 +1175,19 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 482, y: 328.5}
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+      width: 1114
+      height: 659
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 557, y: 329.5}
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -280.34174
       y: -151.27547
@@ -1115,16 +1205,29 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 964, y: 657}
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+      x: -557
+      y: -329.5
+      width: 1114
+      height: 659
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1114, y: 680}
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &19
 =======
 --- !u!114 &22
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+--- !u!114 &18
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1146,6 +1249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 756
     width: 1539
     height: 253
@@ -1158,6 +1262,13 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &23
 >>>>>>> 6000191f5531d332399fb8a846afef16b9c38bbb
+=======
+    y: 774
+    width: 1579
+    height: 235
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &19
+>>>>>>> parent of 7767f4be (pour toi mon reuf)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
