@@ -1,5 +1,4 @@
 using UnityEngine;
-using Photon.Pun;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,11 +9,9 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody2D rb;
     private Vector3 velocity = Vector3.zero;
+   
+    
 
-    void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
 
 
     void FixedUpdate()
@@ -29,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
 
         MovePlayer(horizontalMovement);
         MovePlayer2(verticalMovement);
-        rb.MovePosition(rb.position + new Vector2(horizontalMovement,verticalMovement) * Time.fixedDeltaTime);
     }
 
 
