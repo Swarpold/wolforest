@@ -10,6 +10,17 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody2D rb;
     private Vector3 velocity = Vector3.zero;
+<<<<<<< HEAD
+=======
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+
+
+>>>>>>> ae51f8b644f588d3525294109bac9d47c8f08a14
 
     void Awake()
     {
@@ -29,7 +40,11 @@ public class PlayerMovement : MonoBehaviour
 
         MovePlayer(horizontalMovement);
         MovePlayer2(verticalMovement);
+<<<<<<< HEAD
         rb.MovePosition(rb.position + new Vector2(horizontalMovement,verticalMovement) * Time.fixedDeltaTime);
+=======
+        rb.MovePosition(rb.position + new Vector2(1f,0f) * Time.fixedDeltaTime);
+>>>>>>> ae51f8b644f588d3525294109bac9d47c8f08a14
     }
 
 
