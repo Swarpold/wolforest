@@ -27,10 +27,28 @@ ScriptsOnlyBuild:
     - Photon.Pun.ServerSettings
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -77,6 +95,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
@@ -84,9 +104,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 628}
+      Script: {instanceID: 682}
     - Class: 114
-      Script: {instanceID: 1598}
+      Script: {instanceID: 1660}
+    - Class: 114
+      Script: {instanceID: 1812}
+    - Class: 114
+      Script: {instanceID: 2256}
+    - Class: 114
+      Script: {instanceID: 3262}
+    - Class: 114
+      Script: {instanceID: 3688}
+    - Class: 114
+      Script: {instanceID: 4324}
+    - Class: 114
+      Script: {instanceID: 4462}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -96,6 +128,8 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -147,83 +181,83 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 628}
+      Script: {instanceID: 682}
     - Class: 114
-      Script: {instanceID: 1460}
+      Script: {instanceID: 1514}
     - Class: 114
-      Script: {instanceID: 1462}
+      Script: {instanceID: 1516}
     - Class: 114
-      Script: {instanceID: 1464}
+      Script: {instanceID: 1518}
     - Class: 114
-      Script: {instanceID: 1466}
+      Script: {instanceID: 1520}
     - Class: 114
-      Script: {instanceID: 1512}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1536}
+      Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1550}
+      Script: {instanceID: 1608}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1618}
     - Class: 114
-      Script: {instanceID: 1598}
+      Script: {instanceID: 1660}
     - Class: 114
-      Script: {instanceID: 1616}
-    - Class: 114
-      Script: {instanceID: 1674}
-    - Class: 114
-      Script: {instanceID: 1684}
-    - Class: 114
-      Script: {instanceID: 1728}
+      Script: {instanceID: 1678}
     - Class: 114
       Script: {instanceID: 1744}
     - Class: 114
-      Script: {instanceID: 1960}
+      Script: {instanceID: 1754}
     - Class: 114
-      Script: {instanceID: 2050}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 2092}
+      Script: {instanceID: 1822}
     - Class: 114
-      Script: {instanceID: 2262}
+      Script: {instanceID: 2052}
     - Class: 114
-      Script: {instanceID: 2360}
+      Script: {instanceID: 2146}
     - Class: 114
-      Script: {instanceID: 2396}
+      Script: {instanceID: 2194}
+    - Class: 114
+      Script: {instanceID: 2382}
     - Class: 114
       Script: {instanceID: 2484}
     - Class: 114
-      Script: {instanceID: 2654}
+      Script: {instanceID: 2520}
     - Class: 114
-      Script: {instanceID: 2660}
+      Script: {instanceID: 2612}
     - Class: 114
-      Script: {instanceID: 2662}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 2978}
+      Script: {instanceID: 2796}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 2798}
     - Class: 114
-      Script: {instanceID: 3352}
+      Script: {instanceID: 3136}
     - Class: 114
-      Script: {instanceID: 3356}
+      Script: {instanceID: 3268}
     - Class: 114
-      Script: {instanceID: 3490}
+      Script: {instanceID: 3540}
     - Class: 114
-      Script: {instanceID: 3526}
+      Script: {instanceID: 3544}
     - Class: 114
-      Script: {instanceID: 3582}
+      Script: {instanceID: 3692}
     - Class: 114
-      Script: {instanceID: 3598}
+      Script: {instanceID: 3732}
     - Class: 114
-      Script: {instanceID: 3774}
+      Script: {instanceID: 3790}
     - Class: 114
-      Script: {instanceID: 3828}
+      Script: {instanceID: 3806}
     - Class: 114
-      Script: {instanceID: 3830}
+      Script: {instanceID: 3994}
     - Class: 114
-      Script: {instanceID: 3966}
+      Script: {instanceID: 4054}
     - Class: 114
-      Script: {instanceID: 4058}
+      Script: {instanceID: 4056}
     - Class: 114
-      Script: {instanceID: 4240}
+      Script: {instanceID: 4196}
+    - Class: 114
+      Script: {instanceID: 4292}
+    - Class: 114
+      Script: {instanceID: 4484}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -393,6 +427,12 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
       Hash: cba6cca6bb3290c4c00d709cf63843db
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -459,6 +499,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
       Hash: 3f600ad0f750f59238a91f7513b927c1
     assemblyName: PhotonUnityNetworking.dll
     namespaceName: Photon.Pun
@@ -487,6 +533,18 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CurrentRoomIsVisibleProperty
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 55075c83d70ee49736f8999898692b1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PostProcessingScript
   - hash:
       serializedVersion: 2
       Hash: 2163458cae41cb1735c8b06fc34a9582
@@ -627,6 +685,12 @@ ScriptsOnlyBuild:
     className: PropertyListenerBase
   - hash:
       serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
       Hash: 87207d40b89ca632396b05b3cb1e69b0
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -751,6 +815,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: OnEscapeQuit
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -915,6 +985,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -1057,6 +1133,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
   - hash:
       serializedVersion: 2
       Hash: a8d3c943d9168cbdd8596f040ff02ff4
@@ -1215,6 +1297,12 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
       Hash: ac1e49249c7034b7330cd0827116d70f
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
@@ -1269,6 +1357,12 @@ ScriptsOnlyBuild:
     className: AsteroidsGameManager
   - hash:
       serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
       Hash: e10400e84c8c573b2b5e4088aca77453
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.PunBasics
@@ -1291,6 +1385,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: StatesGui
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
   - hash:
       serializedVersion: 2
       Hash: 3165968ba45c74472d279ba04455fccb
@@ -1407,6 +1507,12 @@ ScriptsOnlyBuild:
     className: EventSystemSpawner
   - hash:
       serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
       Hash: 7b755d764a475c6eb4e729ba7895259d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1419,10 +1525,22 @@ ScriptsOnlyBuild:
     className: LobbyTopPanel
   - hash:
       serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
       Hash: e4aa02db6487ad3aebb8e2f22ee6b699
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Procedural
     className: WorldGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1485,6 +1603,12 @@ ScriptsOnlyBuild:
     className: FriendListCell
   - hash:
       serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
       Hash: 23d98efc145b1081fdecd8f309db521f
     assemblyName: PhotonUnityNetworking.dll
     namespaceName: Photon.Pun
@@ -1525,6 +1649,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: UnityStandardAssets.Characters.ThirdPerson.PunDemos
     className: ThirdPersonUserControl
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1593,6 +1723,12 @@ ScriptsOnlyBuild:
     className: SendRateField
   - hash:
       serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
       Hash: 00c99ff3f40bd11590c670580e513825
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -1615,8 +1751,15 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/gui-l/OneDrive/Bureau/Wolf'Orest.exe
+  playerPath: C:/Users/franc/OneDrive/Bureau/wolforest/wolforest/WolfOrest/Build
+    and run/Wolf'Orest.exe
