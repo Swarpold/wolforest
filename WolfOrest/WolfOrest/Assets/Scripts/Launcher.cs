@@ -43,7 +43,7 @@ public class Launcher : MonoBehaviourPunCallbacks
         Debug.Log("Joined Lobby");
         PhotonNetwork.NickName = "Player " + Random.Range(0, 1000).ToString("0000");
     }
-    
+
     public void CreatRoom()
     {
         if (string.IsNullOrEmpty(roomNameInputField.text))
@@ -58,6 +58,12 @@ public class Launcher : MonoBehaviourPunCallbacks
         MenuManager.Instance.OpenMenu("room");
         roomNameText.text = PhotonNetwork.CurrentRoom.Name;
         Player[] players = PhotonNetwork.PlayerList;
+
+        foreach(Transform child in playerListContent)
+        {
+            Destroy(child.gameObject);
+        }
+
         for (int i = 0; i < players.Count(); i++)
         {
             Instantiate(PlayerListItemPrefab, playerListContent).GetComponent<PlayerListItem>().SetUp(players[i]);
@@ -95,12 +101,16 @@ public class Launcher : MonoBehaviourPunCallbacks
     }
     public override void OnRoomListUpdate(List<RoomInfo> roomList)
     {
-        foreach(Transform trans in roomListContent)
+        foreach (Transform trans in roomListContent)
         {
             Destroy(trans.gameObject);
         }
-        for(int i = 0; i < roomList.Count; i++)
+        for (int i = 0; i < roomList.Count; i++)
         {
+            if (roomList[i].RemovedFromList)
+            {
+                continue;
+            }
             Instantiate(roomListItemPrefab, roomListContent).GetComponent<RoomListItem>().SetUp(roomList[i]);
         }
     }
