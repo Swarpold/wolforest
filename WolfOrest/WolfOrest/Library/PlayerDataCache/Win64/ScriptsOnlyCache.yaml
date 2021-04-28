@@ -17,10 +17,14 @@ ScriptsOnlyBuild:
     - Photon.Pun.ServerSettings
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.Postprocessing.Editor.dll:
+    - UnityEditor.Rendering.PostProcessing.PostProcessLayerEditor
     Unity.Postprocessing.Runtime.dll:
     - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
     - UnityEngine.Rendering.PostProcessing.AutoExposure
@@ -89,19 +93,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 682}
     - Class: 114
-      Script: {instanceID: 1642}
+      Script: {instanceID: 1650}
     - Class: 114
-      Script: {instanceID: 1780}
+      Script: {instanceID: 1788}
     - Class: 114
-      Script: {instanceID: 2186}
+      Script: {instanceID: 2194}
     - Class: 114
-      Script: {instanceID: 3126}
+      Script: {instanceID: 3134}
     - Class: 114
-      Script: {instanceID: 3516}
+      Script: {instanceID: 3524}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 4114}
     - Class: 114
-      Script: {instanceID: 4232}
+      Script: {instanceID: 4240}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -154,59 +158,59 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1514}
     - Class: 114
-      Script: {instanceID: 1556}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 1582}
+      Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 1602}
+      Script: {instanceID: 1610}
     - Class: 114
-      Script: {instanceID: 1642}
+      Script: {instanceID: 1650}
     - Class: 114
-      Script: {instanceID: 1656}
+      Script: {instanceID: 1664}
     - Class: 114
-      Script: {instanceID: 1726}
+      Script: {instanceID: 1734}
     - Class: 114
-      Script: {instanceID: 1770}
+      Script: {instanceID: 1778}
     - Class: 114
-      Script: {instanceID: 1790}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 2002}
+      Script: {instanceID: 2010}
     - Class: 114
-      Script: {instanceID: 2186}
+      Script: {instanceID: 2194}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2312}
     - Class: 114
-      Script: {instanceID: 2402}
+      Script: {instanceID: 2410}
     - Class: 114
-      Script: {instanceID: 2438}
+      Script: {instanceID: 2446}
     - Class: 114
-      Script: {instanceID: 2524}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 2628}
+      Script: {instanceID: 2636}
     - Class: 114
-      Script: {instanceID: 2694}
+      Script: {instanceID: 2702}
     - Class: 114
-      Script: {instanceID: 2700}
+      Script: {instanceID: 2708}
     - Class: 114
-      Script: {instanceID: 3010}
+      Script: {instanceID: 3018}
     - Class: 114
-      Script: {instanceID: 3366}
+      Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 3610}
+      Script: {instanceID: 3618}
     - Class: 114
-      Script: {instanceID: 3622}
+      Script: {instanceID: 3630}
     - Class: 114
-      Script: {instanceID: 3804}
+      Script: {instanceID: 3812}
     - Class: 114
-      Script: {instanceID: 3858}
+      Script: {instanceID: 3866}
     - Class: 114
-      Script: {instanceID: 3860}
+      Script: {instanceID: 3868}
     - Class: 114
-      Script: {instanceID: 3986}
+      Script: {instanceID: 3994}
     - Class: 114
-      Script: {instanceID: 4078}
+      Script: {instanceID: 4086}
     - Class: 114
-      Script: {instanceID: 4232}
+      Script: {instanceID: 4240}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1054,4 +1058,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/gui-l/OneDrive/Bureau/Wolf'Orest.exe
+  playerPath: C:/Users/franc/OneDrive/Bureau/wolforest/wolforest/WolfOrest/ckjhez/Wolf'Orest.exe
