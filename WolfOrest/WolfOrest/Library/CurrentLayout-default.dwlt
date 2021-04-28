@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,14 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 15
+=======
+  controlID: 121
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,7 +155,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -224,10 +228,14 @@ MonoBehaviour:
     y: 0
     width: 1369
     height: 947
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 16
+=======
+  controlID: 79
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,10 +257,14 @@ MonoBehaviour:
     y: 0
     width: 1369
     height: 673
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 17
+=======
+  controlID: 80
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,8 +284,8 @@ MonoBehaviour:
     y: 0
     width: 968
     height: 673
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
@@ -351,6 +363,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Resources/PhotonPrefabs
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest
   m_LockTracker:
     m_IsLocked: 0
@@ -359,6 +372,16 @@ MonoBehaviour:
     m_SelectedIDs: 40400000
     m_LastClickedID: 16448
     m_ExpandedIDs: 000000002440000026400000284000002a40000000ca9a3b
+=======
+  m_LastProjectPath: C:\Users\franc\OneDrive\Bureau\wolforest\wolforest\WolfOrest\WolfOrest
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 39}
+    m_SelectedIDs: 16410000
+    m_LastClickedID: 16662
+    m_ExpandedIDs: 00000000fe40000000410000024100000441000000ca9a3b
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +409,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000002440000026400000284000002a400000
+=======
+    m_ExpandedIDs: 00000000fe400000004100000241000004410000
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -413,7 +440,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e2450000e84500006a430000c06a0000d6550000f0420000da460000cc460000d24f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -507,23 +534,29 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 9a400000
       m_LastClickedID: 16538
       m_ExpandedIDs: 5ef9ffff22fbffff
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d0f7ffffeef7ffff02f9ffff16f9ffffecfaffff
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Main Camera
+        m_OriginalName: Main Camera
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 16750
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 

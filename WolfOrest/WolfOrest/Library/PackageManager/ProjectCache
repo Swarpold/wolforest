@@ -1,19 +1,34 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
+<<<<<<< HEAD
     m_FilePath: C:/Users/gui-l/OneDrive/Bureau/wolforest/WolfOrest/WolfOrest/Packages/manifest.json
+=======
+    m_FilePath: C:/Users/franc/OneDrive/Bureau/wolforest/wolforest/WolfOrest/WolfOrest/Packages/manifest.json
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637551421262722885
     m_Hash: 1246347406
   m_LockFileStatus:
     m_FilePath: C:/Users/gui-l/OneDrive/Bureau/wolforest/WolfOrest/WolfOrest/Packages/packages-lock.json
+=======
+      ticks: 637546952031257093
+    m_Hash: 1246347406
+  m_LockFileStatus:
+    m_FilePath: C:/Users/franc/OneDrive/Bureau/wolforest/wolforest/WolfOrest/WolfOrest/Packages/packages-lock.json
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637552102061922032
+=======
+      ticks: 637551402953136026
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
     m_Hash: 4231147085
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -126,7 +141,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
+<<<<<<< HEAD
       resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.collab-proxy@1.3.9
+=======
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\wolforest\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.collab-proxy@1.3.9
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -223,7 +242,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
+<<<<<<< HEAD
       resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ide.rider@2.0.7
+=======
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\wolforest\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ide.rider@2.0.7
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -328,7 +351,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.5
       source: 1
+<<<<<<< HEAD
       resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+=======
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\wolforest\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -399,7 +426,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
+<<<<<<< HEAD
       resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ide.vscode@1.2.3
+=======
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\wolforest\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ide.vscode@1.2.3
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -468,7 +499,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.3
       source: 1
+<<<<<<< HEAD
       resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.postprocessing@3.0.3
+=======
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\wolforest\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.postprocessing@3.0.3
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
@@ -555,7 +590,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.20
       source: 1
+<<<<<<< HEAD
       resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.test-framework@1.1.20
+=======
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\wolforest\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.test-framework@1.1.20
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -645,7 +684,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
+<<<<<<< HEAD
       resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.textmeshpro@3.0.1
+=======
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\wolforest\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.textmeshpro@3.0.1
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -804,7 +847,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.5
       source: 1
+<<<<<<< HEAD
       resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.timeline@1.4.5
+=======
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\wolforest\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.timeline@1.4.5
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2786,7 +2833,11 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
+<<<<<<< HEAD
       resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ext.nunit@1.0.6
+=======
+      resolvedPath: C:\Users\franc\OneDrive\Bureau\wolforest\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ext.nunit@1.0.6
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2802,8 +2853,18 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         verified: 1.0.6
       dependencies: []
@@ -2824,7 +2885,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -2834,5 +2895,9 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
+<<<<<<< HEAD
 m_ProjectPath: C:/Users/gui-l/OneDrive/Bureau/wolforest/WolfOrest/WolfOrest/Packages
+=======
+m_ProjectPath: C:/Users/franc/OneDrive/Bureau/wolforest/wolforest/WolfOrest/WolfOrest/Packages
+>>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
 m_EditorVersion: 2020.2.3f1 (8ff31bc5bf5b)
