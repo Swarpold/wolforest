@@ -1,7 +1,7 @@
 using UnityEngine;
 using Photon.Pun;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviourPun
 {
     public float moveSpeed;
     //public float jumpForce;
@@ -16,13 +16,12 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-
-
-
-
-
     void FixedUpdate()
     {
+        if (!photonView.IsMine)
+        {
+            return;
+        }
         float horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
         float verticalMovement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
 
@@ -30,10 +29,9 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = true;
         }*/
-
+        rb.MovePosition(rb.position + new Vector2(horizontalMovement, verticalMovement) * Time.fixedDeltaTime);
         MovePlayer(horizontalMovement);
         MovePlayer2(verticalMovement);
-        rb.MovePosition(rb.position + new Vector2(1f,0f) * Time.fixedDeltaTime);
     }
 
 

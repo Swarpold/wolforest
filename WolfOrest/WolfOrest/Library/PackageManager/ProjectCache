@@ -1,19 +1,19 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/gui-l/OneDrive/Bureau/wolforest_soutenance/wolforest/WolfOrest/WolfOrest/Packages/manifest.json
+    m_FilePath: C:/Users/gui-l/OneDrive/Bureau/wolforest/WolfOrest/WolfOrest/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637546975668284601
+      ticks: 637551421262722885
     m_Hash: 1246347406
   m_LockFileStatus:
-    m_FilePath: C:/Users/gui-l/OneDrive/Bureau/wolforest_soutenance/wolforest/WolfOrest/WolfOrest/Packages/packages-lock.json
+    m_FilePath: C:/Users/gui-l/OneDrive/Bureau/wolforest/WolfOrest/WolfOrest/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637546976353344956
+      ticks: 637552102061922032
     m_Hash: 4231147085
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -126,7 +126,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest_soutenance\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -160,6 +160,7 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.5.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -172,6 +173,7 @@ m_PackageAssets:
         - 2.1.0-preview.6
         compatible:
         - 1.3.9
+        - 1.5.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -221,7 +223,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest_soutenance\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -326,7 +328,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.5
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest_soutenance\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -397,7 +399,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest_soutenance\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -466,7 +468,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.3
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest_soutenance\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.postprocessing@3.0.3
+      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.postprocessing@3.0.3
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
@@ -514,10 +516,12 @@ m_PackageAssets:
         - 2.3.0
         - 3.0.1
         - 3.0.3
+        - 3.1.0
         compatible:
         - 2.3.0
         - 3.0.1
         - 3.0.3
+        - 3.1.0
         verified: 3.0.3
       dependencies:
       - name: com.unity.modules.physics
@@ -551,7 +555,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.20
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest_soutenance\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.test-framework@1.1.20
+      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.test-framework@1.1.20
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -641,7 +645,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest_soutenance\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -734,6 +738,7 @@ m_PackageAssets:
         - 2.1.3
         - 2.1.4
         - 2.1.5
+        - 2.1.6
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -750,12 +755,14 @@ m_PackageAssets:
         - 3.0.3
         - 3.0.4
         - 3.0.5
+        - 3.0.6
         compatible:
         - 3.0.1
         - 3.0.3
         - 3.0.4
         - 3.0.5
-        verified: 3.0.5
+        - 3.0.6
+        verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -797,7 +804,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.5
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest_soutenance\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.timeline@1.4.5
+      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.timeline@1.4.5
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2779,7 +2786,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest_soutenance\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\gui-l\OneDrive\Bureau\wolforest\WolfOrest\WolfOrest\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2827,5 +2834,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/gui-l/OneDrive/Bureau/wolforest_soutenance/wolforest/WolfOrest/WolfOrest/Packages
+m_ProjectPath: C:/Users/gui-l/OneDrive/Bureau/wolforest/WolfOrest/WolfOrest/Packages
 m_EditorVersion: 2020.2.3f1 (8ff31bc5bf5b)

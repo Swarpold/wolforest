@@ -6,6 +6,8 @@ using System.IO;
 
 public class PlayerManager : MonoBehaviour
 {
+    [SerializeField] GameObject camera;
+    private Vector2 spawn;
     PhotonView PV;
     private void Awake()
     {
@@ -16,13 +18,23 @@ public class PlayerManager : MonoBehaviour
     {
         if (PV.IsMine)
         {
-            CreateController();
+            spawn = new Vector2(-2f, 0f);
+           //CreateController();
+        }
+        else
+        {
+            spawn = new Vector2(2f, 0f);
+        }
+        var player = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Player"), spawn, Quaternion.identity);
+        if (PV.IsMine)
+        {
+            camera.transform.SetParent(player.transform, false);
         }
     }
 
     // Update is called once per frame
-    void CreateController()
+    /*void CreateController()
     {
-        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Player"), Vector3.zero, Quaternion.identity);
-    }
+        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Player"), spawn, Quaternion.identity);
+    }*/
 }

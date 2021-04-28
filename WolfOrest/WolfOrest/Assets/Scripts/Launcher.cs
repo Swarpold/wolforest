@@ -82,7 +82,10 @@ public class Launcher : MonoBehaviourPunCallbacks
     }
     public void StartGame()
     {
-        PhotonNetwork.LoadLevel(1);
+        if (PhotonNetwork.IsMasterClient)
+        {
+            PhotonNetwork.LoadLevel(1);
+        }
     }
     public void LeaveRoom()
     {
@@ -97,7 +100,6 @@ public class Launcher : MonoBehaviourPunCallbacks
     public override void OnLeftRoom()
     {
         MenuManager.Instance.OpenMenu("title");
-
     }
     public override void OnRoomListUpdate(List<RoomInfo> roomList)
     {
