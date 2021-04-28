@@ -24,8 +24,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
-    Unity.Postprocessing.Editor.dll:
-    - UnityEditor.Rendering.PostProcessing.PostProcessLayerEditor
     Unity.Postprocessing.Runtime.dll:
     - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
     - UnityEngine.Rendering.PostProcessing.AutoExposure
@@ -88,31 +86,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 682}
     - Class: 114
-<<<<<<< HEAD
       Script: {instanceID: 1780}
-=======
-      Script: {instanceID: 1650}
     - Class: 114
-      Script: {instanceID: 1788}
->>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
+      Script: {instanceID: 2186}
     - Class: 114
-      Script: {instanceID: 2194}
-    - Class: 114
-<<<<<<< HEAD
       Script: {instanceID: 2628}
     - Class: 114
       Script: {instanceID: 2694}
     - Class: 114
       Script: {instanceID: 3126}
-=======
-      Script: {instanceID: 3134}
->>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
     - Class: 114
-      Script: {instanceID: 3524}
+      Script: {instanceID: 3516}
     - Class: 114
-      Script: {instanceID: 4114}
+      Script: {instanceID: 4106}
     - Class: 114
-      Script: {instanceID: 4240}
+      Script: {instanceID: 4232}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -159,67 +147,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1514}
     - Class: 114
-      Script: {instanceID: 1564}
+      Script: {instanceID: 1556}
     - Class: 114
-      Script: {instanceID: 1590}
+      Script: {instanceID: 1582}
     - Class: 114
-      Script: {instanceID: 1610}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 1650}
+      Script: {instanceID: 1642}
     - Class: 114
-      Script: {instanceID: 1664}
+      Script: {instanceID: 1656}
     - Class: 114
-      Script: {instanceID: 1734}
+      Script: {instanceID: 1726}
     - Class: 114
-      Script: {instanceID: 1778}
+      Script: {instanceID: 1770}
     - Class: 114
-      Script: {instanceID: 1798}
+      Script: {instanceID: 1790}
     - Class: 114
-      Script: {instanceID: 2010}
+      Script: {instanceID: 2002}
     - Class: 114
-<<<<<<< HEAD
       Script: {instanceID: 2304}
-=======
-      Script: {instanceID: 2194}
     - Class: 114
-      Script: {instanceID: 2312}
->>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
+      Script: {instanceID: 2402}
     - Class: 114
-      Script: {instanceID: 2410}
+      Script: {instanceID: 2438}
     - Class: 114
-      Script: {instanceID: 2446}
+      Script: {instanceID: 2524}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2628}
     - Class: 114
-      Script: {instanceID: 2636}
+      Script: {instanceID: 2694}
     - Class: 114
-      Script: {instanceID: 2702}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2708}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 3018}
+      Script: {instanceID: 3366}
     - Class: 114
-      Script: {instanceID: 3374}
+      Script: {instanceID: 3610}
     - Class: 114
-      Script: {instanceID: 3618}
+      Script: {instanceID: 3622}
     - Class: 114
-      Script: {instanceID: 3630}
+      Script: {instanceID: 3804}
     - Class: 114
-      Script: {instanceID: 3812}
+      Script: {instanceID: 3858}
     - Class: 114
-      Script: {instanceID: 3866}
+      Script: {instanceID: 3860}
     - Class: 114
-      Script: {instanceID: 3868}
+      Script: {instanceID: 3986}
     - Class: 114
-      Script: {instanceID: 3994}
-    - Class: 114
-<<<<<<< HEAD
       Script: {instanceID: 4078}
-=======
-      Script: {instanceID: 4086}
-    - Class: 114
-      Script: {instanceID: 4240}
->>>>>>> parent of 29149450 (Revert "Merge branch 'main' of https://github.com/Swarpold/wolforest into main")
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1067,4 +1043,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/franc/OneDrive/Bureau/wolforest/wolforest/WolfOrest/ckjhez/Wolf'Orest.exe
+  playerPath: C:/Users/gui-l/OneDrive/Bureau/Wolf'Orest.exe
