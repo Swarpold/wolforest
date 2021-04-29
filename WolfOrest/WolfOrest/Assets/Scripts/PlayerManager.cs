@@ -26,10 +26,7 @@ public class PlayerManager : MonoBehaviour
             spawn = new Vector2(2f, 0f);
         }
         var player = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Player"), spawn, Quaternion.identity);
-        if (PV.IsMine)
-        {
-            camera.transform.SetParent(player.transform, false);
-        }
+        camera.transform.SetParent(player.transform, false);
     }
 
     // Update is called once per frame
