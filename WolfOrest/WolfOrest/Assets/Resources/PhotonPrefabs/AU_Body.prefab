@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 8779315150030396092}
   - component: {fileID: 2537039834119011792}
   - component: {fileID: 5158189976707281280}
-  m_Layer: 0
+  - component: {fileID: 4762250980065512745}
+  m_Layer: 7
   m_Name: AU_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4854509151063157369}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.4351363, y: -8.893623, z: -13.545373}
+  m_LocalPosition: {x: 4.4351363, y: -8.893623, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6660036518843976657}
@@ -76,6 +77,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodySprite: {fileID: 0}
+--- !u!114 &4762250980065512745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4854509151063157369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  observableSearch: 2
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents: []
+  viewIdField: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &6134225202504008027
 GameObject:
   m_ObjectHideFlags: 0
@@ -86,7 +109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6660036518843976657}
   - component: {fileID: 3171865837841284398}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}

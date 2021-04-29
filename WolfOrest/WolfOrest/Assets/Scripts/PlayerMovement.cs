@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
+using System.IO;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviourPun
+public class PlayerMovement : MonoBehaviourPun, IPunObservable
 {
     
     //public float jumpForce;
@@ -23,7 +24,7 @@ public class PlayerMovement : MonoBehaviourPun
     [SerializeField] InputAction WASD;
     Vector2 movementInput;
     [SerializeField] float moveSpeed;
- 
+    float direction = 1;
 
     [SerializeField] bool isImposter;
     [SerializeField] InputAction KILL;
@@ -44,7 +45,10 @@ public class PlayerMovement : MonoBehaviourPun
     [SerializeField] InputAction REPORT;
     [SerializeField] LayerMask ignoreForBody;
 
-
+    //Networking
+    PhotonView myPV;
+    //[SerializeField] GameObject lightMask;
+    //[SerializeField] lightcaster myLightCaster;
 
 
     //public Rigidbody2D rb;
@@ -55,6 +59,7 @@ public class PlayerMovement : MonoBehaviourPun
 
     void Awake()
     {
+      
         KILL.performed += KillTarget;
         REPORT.performed += ReportBody;
         //rb = GetComponent<Rigidbody2D>();
@@ -62,6 +67,7 @@ public class PlayerMovement : MonoBehaviourPun
 
     private void OnEnable()
     {
+        
         WASD.Enable();
         KILL.Enable();
         REPORT.Enable();
@@ -69,6 +75,7 @@ public class PlayerMovement : MonoBehaviourPun
 
     private void OnDisable()
     {
+        
         WASD.Disable();
         KILL.Disable();
         REPORT.Disable();
@@ -76,24 +83,36 @@ public class PlayerMovement : MonoBehaviourPun
 
     void Start()
     {
-        if (hasControl)
+        myPV = GetComponent<PhotonView>();
+
+        if (myPV.IsMine)
         {
             localPlayer = this;
         }
         targets = new List<PlayerMovement>();
-
+        //myCamera = transform.GetChild(1).GetComponent<Camera>();
         myRB = GetComponent<Rigidbody>();
         myAvatar = transform.GetChild(0);
         myAnim = GetComponent<Animator>();
-
         allBodies = new List<Transform>();
 
         bodiesFound = new List<Transform>();
+
+        if (!myPV.IsMine)
+        {
+            //myCamera.gameObject.SetActive(false);
+            //lightMask.SetActive(false);
+            return;
+        }
+
+        
     }
 
     void Update()
     {
-        if (!hasControl)
+        myAvatar.localScale = new Vector2(direction, 1);
+
+        if (!myPV.IsMine)
         {
             return;
         }
@@ -103,7 +122,7 @@ public class PlayerMovement : MonoBehaviourPun
 
         if (movementInput.x != 0)
         {
-            myAvatar.localScale = new Vector2(Mathf.Sign(movementInput.x), 1);
+            direction = Mathf.Sign(movementInput.x);
         }
 
         if (allBodies.Count > 0)
@@ -116,32 +135,26 @@ public class PlayerMovement : MonoBehaviourPun
 
     void FixedUpdate()
     {
-        if (!photonView.IsMine)
+        
+        if (!myPV.IsMine)
         {
             return;
         }
 
         myRB.velocity = movementInput * moveSpeed;
-        /*float horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
-        float verticalMovement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
-
-        if(Input.GetButtonDown("Jump"))
-        {
-            isJumping = true;
-        }
-        rb.MovePosition(rb.position + new Vector2(horizontalMovement, verticalMovement) * Time.fixedDeltaTime);
-        MovePlayer(horizontalMovement);
-        MovePlayer2(verticalMovement);*/
+        
     }
 
     public void SetRole(bool newRole)
     {
+        
         isImposter = newRole;
     }
 
 
     private void OnTriggerEnter(Collider other)
     {
+        
         if (other.tag == "Player")
         {
             PlayerMovement tempTarget = other.GetComponent<PlayerMovement>();
@@ -160,6 +173,7 @@ public class PlayerMovement : MonoBehaviourPun
 
     private void OnTriggerExit(Collider other)
     {
+        
         if (other.tag == "Player")
         {
             PlayerMovement tempTarget = other.GetComponent<PlayerMovement>();
@@ -172,6 +186,8 @@ public class PlayerMovement : MonoBehaviourPun
 
     void KillTarget(InputAction.CallbackContext context)
     {
+        if (!myPV.IsMine) { return; }
+        if (!isImposter) { return;  }
         if (context.phase == InputActionPhase.Performed)
         {
             if (targets.Count == 0)
@@ -181,26 +197,39 @@ public class PlayerMovement : MonoBehaviourPun
                 if (targets[targets.Count - 1].isDead)
                     return;
                 transform.position = targets[targets.Count - 1].transform.position;
-                targets[targets.Count - 1].Die();
+                //targets[targets.Count - 1].Die();
+                targets[targets.Count - 1].myPV.RPC("RPC_Kill", RpcTarget.All);
                 targets.RemoveAt(targets.Count - 1);
             }
         }
     }
 
+    [PunRPC]
+    void RPC_Kill()
+    {
+        Die();
+    }
+
     public void Die()
     {
+        if (!myPV.IsMine) { return; }
+
+        //AU_Body tempBody = Instantiate(bodyPrefab, transform.position, transform.rotation).GetComponent<AU_Body>();
+        AU_Body tempBody = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "AU_Body"),transform.position , transform.rotation).GetComponent<AU_Body>();
+
         isDead = true;
-
+        Debug.Log("is Dead");
         myAnim.SetBool("IsDead", isDead);
-
+        gameObject.layer = 9;
         myCollider.enabled = false;
 
-        AU_Body tempBody = Instantiate(bodyPrefab, transform.position, transform.rotation).GetComponent<AU_Body>();
+        
     }
 
 
     void BodySearch()
     {
+        
         foreach (Transform body in allBodies)
         {
             RaycastHit hit;
@@ -235,6 +264,18 @@ public class PlayerMovement : MonoBehaviourPun
         allBodies.Remove(tempBody);
         bodiesFound.Remove(tempBody);
         tempBody.GetComponent<AU_Body>().Report();
+    }
+
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        if (stream.IsWriting)
+        {
+            stream.SendNext(direction);
+        }
+        else
+        {
+            direction = (float)stream.ReceiveNext();
+        }
     }
 
     /*void MovePlayer(float _horizontalMovement)

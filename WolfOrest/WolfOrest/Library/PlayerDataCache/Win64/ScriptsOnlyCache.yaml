@@ -8,11 +8,14 @@ ScriptsOnlyBuild:
     - PlayerListItem
     - PlayerManager
     - PlayerMovement
+    - Player_Photon
     - RoomListItem
     - RoomManager
     PhotonUnityNetworking.Editor.dll:
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
+    - Photon.Pun.PhotonAnimatorView
+    - Photon.Pun.PhotonRigidbodyView
     - Photon.Pun.PhotonTransformView
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
@@ -56,11 +59,15 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -201,6 +208,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2926}
     - Class: 114
+      Script: {instanceID: 2936}
+    - Class: 114
       Script: {instanceID: 3288}
     - Class: 114
       Script: {instanceID: 3332}
@@ -210,6 +219,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3768}
     - Class: 114
       Script: {instanceID: 3982}
+    - Class: 114
+      Script: {instanceID: 4044}
     - Class: 114
       Script: {instanceID: 4108}
     - Class: 114
@@ -224,6 +235,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4560}
     - Class: 114
       Script: {instanceID: 4660}
+    - Class: 114
+      Script: {instanceID: 79038}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1239,6 +1252,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player_Photon
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
