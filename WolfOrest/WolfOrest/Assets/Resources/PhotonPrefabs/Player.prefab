@@ -209,6 +209,7 @@ MonoBehaviour:
       m_Action: WASD
       m_Flags: 8
   moveSpeed: 6
+  SetImposters: 0
   isImposter: 0
   KILL:
     m_Name: KILL
@@ -227,6 +228,7 @@ MonoBehaviour:
       m_Action: KILL
       m_Flags: 0
   myCollider: {fileID: 5059827260074926747}
+  isDead: 0
   bodyPrefab: {fileID: 4854509151063157369, guid: 32765662a2b624b4e92e19838a64c09b, type: 3}
   REPORT:
     m_Name: REPORT
@@ -247,6 +249,7 @@ MonoBehaviour:
   ignoreForBody:
     serializedVersion: 2
     m_Bits: 512
+  players: []
 --- !u!95 &7657040150658184025
 Animator:
   serializedVersion: 3
