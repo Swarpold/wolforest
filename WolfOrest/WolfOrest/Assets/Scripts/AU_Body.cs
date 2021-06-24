@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class AU_Body : MonoBehaviour
 {
@@ -22,6 +23,6 @@ public class AU_Body : MonoBehaviour
     public void Report()
     {
         Debug.Log("Reported");
-        Destroy(gameObject);
+        PhotonNetwork.Destroy(gameObject);
     }
 }

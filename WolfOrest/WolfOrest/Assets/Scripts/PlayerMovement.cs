@@ -53,12 +53,18 @@ public class PlayerMovement : MonoBehaviourPun, IPunObservable
     //[SerializeField] lightcaster myLightCaster;
 
     public GameObject[] players;
+    public GameObject[] tasks;
 
 
     //public Rigidbody2D rb;
     private Vector3 velocity = Vector3.zero;
 
-
+    //Interaction
+    [SerializeField] InputAction MOUSE;
+    Vector2 mousePositionInput;
+    Camera myCamera;
+    [SerializeField] InputAction INTERACTION;
+    [SerializeField] LayerMask interactLayer;
 
 
     void Awake()
@@ -66,6 +72,7 @@ public class PlayerMovement : MonoBehaviourPun, IPunObservable
       
         KILL.performed += KillTarget;
         REPORT.performed += ReportBody;
+        INTERACTION.performed += Interact;
         //rb = GetComponent<Rigidbody2D>();
     }
 
@@ -75,6 +82,8 @@ public class PlayerMovement : MonoBehaviourPun, IPunObservable
         WASD.Enable();
         KILL.Enable();
         REPORT.Enable();
+        MOUSE.Enable();
+        INTERACTION.Enable();
     }
 
     private void OnDisable()
@@ -83,6 +92,8 @@ public class PlayerMovement : MonoBehaviourPun, IPunObservable
         WASD.Disable();
         KILL.Disable();
         REPORT.Disable();
+        MOUSE.Disable();
+        INTERACTION.Disable();
     }
 
     void Start()
@@ -93,7 +104,8 @@ public class PlayerMovement : MonoBehaviourPun, IPunObservable
         myPV = GetComponent<PhotonView>();
 
         targets = new List<PlayerMovement>();
-        //myCamera = transform.GetChild(1).GetComponent<Camera>();
+
+        myCamera = transform.Find("Main Camera").GetComponent<Camera>();
         myRB = GetComponent<Rigidbody>();
         myAvatar = transform.GetChild(0);
         myAnim = GetComponent<Animator>();
@@ -111,6 +123,11 @@ public class PlayerMovement : MonoBehaviourPun, IPunObservable
         if (players.Length == 0)
         {
             players = GameObject.FindGameObjectsWithTag("Player");
+        }
+
+        if (tasks.Length == 0)
+        {
+            tasks = GameObject.FindGameObjectsWithTag("Interactable");
         }
 
         if (!myPV.IsMine)
@@ -146,7 +163,8 @@ public class PlayerMovement : MonoBehaviourPun, IPunObservable
             BodySearch();
         }
 
-        
+        mousePositionInput = MOUSE.ReadValue<Vector2>();
+
         if (isImposter && Input.GetKeyDown(KeyCode.E))
         {
             players = GameObject.FindGameObjectsWithTag("Player");
@@ -174,6 +192,8 @@ public class PlayerMovement : MonoBehaviourPun, IPunObservable
                 //PhotonNetwork.Instantiate("Blood", gameObject.transform.position, Quaternion.identity);
             }
         }
+
+        
 
     }
 
@@ -299,8 +319,10 @@ public class PlayerMovement : MonoBehaviourPun, IPunObservable
         }
     }
 
-    private void ReportBody(InputAction.CallbackContext obj)
+    [PunRPC]
+    public void ReportBody(InputAction.CallbackContext obj)
     {
+        Debug.Log("a body has been found");
         if (bodiesFound == null)
             return;
         if (bodiesFound.Count == 0)
@@ -373,21 +395,52 @@ public class PlayerMovement : MonoBehaviourPun, IPunObservable
 
     }
 
-    /*void MovePlayer(float _horizontalMovement)
+    [PunRPC]
+    void Interact(InputAction.CallbackContext context)
     {
-        Vector3 targetVelocity = new Vector2(_horizontalMovement, rb.velocity.y);
-        rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
-
-        if(isJumping == true)
+        if (context.phase == InputActionPhase.Performed)
         {
-            rb.AddForce(new Vector2(0f, jumpForce));
-            isJumping = false;
+            RaycastHit hit;
+            Ray ray = myCamera.ScreenPointToRay(mousePositionInput);
+            if (Physics.Raycast(ray, out hit, interactLayer))
+            {
+                Debug.Log("2");
+                if (hit.transform.tag == "Interactable")
+                {
+                    Debug.Log("3");
+                    if (!hit.transform.GetChild(0).gameObject.activeInHierarchy)
+                        return;
+                    
+                    Debug.Log("4");
+                    AU_Interactable temp = hit.transform.GetComponent<AU_Interactable>();
+                    temp.PlayMiniGame();
+                }
+            }
+
+
+            /*tasks = GameObject.FindGameObjectsWithTag("Interactable");
+            float i = float.MaxValue;
+            AU_Interactable tasktoachieve = context.transform.GetComponent<AU_Interactable>();
+            foreach (GameObject task in tasks)
+            {
+                if (Vector2.Distance(gameObject.transform.position, task.transform.position) < i && !task.Equals(gameObject))
+                {
+                    tasktoachieve = task;
+                    i = Vector3.Distance(gameObject.transform.position, task.transform.position);
+                }
+            }
+            Debug.Log(i);
+            Debug.Log("tried to achieve");
+            if (i < 6)
+            {
+
+                Debug.Log("achieve");
+                tasktoachieve.PlayMiniGame();*/
+           
+            
         }
+        
     }
 
-    void MovePlayer2(float _verticalMovement)
-    {
-        Vector3 targetVelocity = new Vector2(rb.velocity.x, _verticalMovement);
-        rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
-    }*/
+ 
 }
