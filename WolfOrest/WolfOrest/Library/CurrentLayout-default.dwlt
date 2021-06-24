@@ -17,11 +17,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 961
     y: 51
     width: 958
     height: 998
 =======
+=======
+>>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -64,7 +67,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 122
+=======
+  controlID: 18
+>>>>>>> parent of 888b8f4a (ok)
 =======
   controlID: 18
 >>>>>>> parent of 888b8f4a (ok)
@@ -255,7 +262,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 41
+=======
+  controlID: 93
+>>>>>>> parent of 888b8f4a (ok)
 =======
   controlID: 93
 >>>>>>> parent of 888b8f4a (ok)
@@ -292,7 +303,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 42
+=======
+  controlID: 94
+>>>>>>> parent of 888b8f4a (ok)
 =======
   controlID: 94
 >>>>>>> parent of 888b8f4a (ok)
@@ -327,6 +342,9 @@ MonoBehaviour:
     height: 671
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 888b8f4a (ok)
+=======
 >>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
@@ -450,11 +468,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 961
     y: 575
     width: 682
     height: 433
 =======
+=======
+>>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -487,6 +508,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Chiche Eliott\Desktop\test 2\wolforest\WolfOrest\WolfOrest
@@ -498,6 +520,8 @@ MonoBehaviour:
     m_LastClickedID: 18984
     m_ExpandedIDs: 0000000056490000584900005a490000264a000000ca9a3b
 =======
+=======
+>>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -514,6 +538,9 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000c6440000c8440000ca440000cc440000ce440000d0440000f644000000ca9a3b
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 888b8f4a (ok)
+=======
 >>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
@@ -549,7 +576,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000056490000584900005a490000
+=======
+    m_ExpandedIDs: 00000000c6440000c8440000ca440000cc440000ce440000d0440000
+>>>>>>> parent of 888b8f4a (ok)
 =======
     m_ExpandedIDs: 00000000c6440000c8440000ca440000cc440000ce440000d0440000
 >>>>>>> parent of 888b8f4a (ok)
@@ -588,9 +619,12 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e2450000e84500006a430000c06a0000d6550000f0420000da460000cc460000d24f0000d6480000ea440000ce5a0000
 =======
+=======
+>>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -648,11 +682,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1644
     y: 81
     width: 274
     height: 927
 =======
+=======
+>>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -698,11 +735,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 961
     y: 81
     width: 200
     height: 473
 =======
+=======
+>>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -719,9 +759,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 444a0000
       m_LastClickedID: 0
       m_ExpandedIDs: 74bbfdff4cbffdffcac1fdffbac2fdffd2cbfdffdacbfdffe4cbfdfff6cbfdff66cdfdff56cefdffae23feffbc23feffc423feffce23feffe623feffb625feff6228feff5a2bfeff642bfeff7c2bfeff702cfeff2c38feff3a38feff4238feff4c38feff6438feff4a3afeff3c3bfeff363efeffa640fefff848feff2e52feff6057feff725dfeff1c5ffeff1060feff8a63feffee65feff4c6cfeff5a70fefffe7cfeff0e7efeff7280fefff883feff0c8afeff0e8afefffc8dfeff748ffefffe94feff1496feff189dfeff4a9ffeff66a0feff56abfeff04adfeff34aefeff3cb5feffa2b7feff7eb9feffb6bafeffc2c2feff28c6feff64c8feff9ec9feff4cd0feff0cd4feffe4e3feff1ce5feff08ebfeff16f2feff22f3feff58f4feffea01ffffdc02ffff6803ffff7404ffffac05ffff6819ffffb620ffffee21ffffd02bffff1c30ffffda32ffff2a34ffff5c35ffff5641ffffc445ffffb25cffffc05cffffc85cffffe65cffff2460ffffaa61ffffe26efffff86effff5e77ffff1a83ffff6e9bffffda9fffffdc9fffffb8a1ffffd6a1ffff3ca3ffff80a3ffffccb4ffff42b9ffffc4beffff42fafffff4fffffff44400002a60000050a1000062a2000034af00004eaf00006eb0000036b400008ab40000a6b4000044bc00005ebc000058bd00007ebd0000f4cc00008ed40000a4d50000ced6000022d900001eda000038da00003cdb000062db0000c6e50000dae60000f0e700006ce8000080e900000ef1000022f2000036f30000b6f30000caf4000054fc00007cfe00000c0001009c0801005a090100ba0901003e0b0100e4130100481601007216010072220100022501004a310100ce3301008c390100c23d01002e40010046400100847d0100848c0100d29c0100e0a4010014a901002ead0100d2c50100
+=======
+      m_SelectedIDs: a83f0000
+      m_LastClickedID: 16296
+      m_ExpandedIDs: 1efbffff
+>>>>>>> parent of 888b8f4a (ok)
 =======
       m_SelectedIDs: a83f0000
       m_LastClickedID: 16296
@@ -799,9 +845,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 183.17154, y: 88.796745, z: -92.42399}
     speed: 2
     m_Value: {x: 183.17154, y: 88.796745, z: -92.42399}
+=======
+    m_Target: {x: 473.60867, y: 303.9998, z: -145.05464}
+    speed: 2
+    m_Value: {x: 477.9729, y: 303.00302, z: -143.36552}
+>>>>>>> parent of 888b8f4a (ok)
 =======
     m_Target: {x: 473.60867, y: 303.9998, z: -145.05464}
     speed: 2
@@ -870,9 +922,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 574.4955
     speed: 2
     m_Value: 574.4955
+=======
+    m_Target: 392.25027
+    speed: 2
+    m_Value: 375.3591
+>>>>>>> parent of 888b8f4a (ok)
 =======
     m_Target: 392.25027
     speed: 2
@@ -935,11 +993,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1162
     y: 81
     width: 480
     height: 473
 =======
+=======
+>>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -950,6 +1011,9 @@ MonoBehaviour:
     height: 639
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 888b8f4a (ok)
+=======
 >>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
@@ -965,7 +1029,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 480, y: 452}
+=======
+  m_TargetSize: {x: 864, y: 618}
+>>>>>>> parent of 888b8f4a (ok)
 =======
   m_TargetSize: {x: 864, y: 618}
 >>>>>>> parent of 888b8f4a (ok)
@@ -992,11 +1060,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -240
     m_HBaseRangeMax: 240
     m_VBaseRangeMin: -226
     m_VBaseRangeMax: 226
 =======
+=======
+>>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -1007,6 +1078,9 @@ MonoBehaviour:
     m_VBaseRangeMax: 319.5
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 888b8f4a (ok)
+=======
 >>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
@@ -1031,6 +1105,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       y: 21
       width: 480
       height: 452
@@ -1039,11 +1114,14 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 888b8f4a (ok)
+=======
+>>>>>>> parent of 888b8f4a (ok)
       y: 0
       width: 864
       height: 639
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 432, y: 319.5}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -1055,12 +1133,15 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 432, y: 319.5}
 >>>>>>> parent of 888b8f4a (ok)
+=======
+>>>>>>> parent of 888b8f4a (ok)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1074,6 +1155,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 888b8f4a (ok)
+=======
+>>>>>>> parent of 888b8f4a (ok)
       x: -432
       y: -319.5
       width: 864
@@ -1081,6 +1164,7 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 864, y: 639}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -1091,6 +1175,8 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 864, y: 639}
+>>>>>>> parent of 888b8f4a (ok)
+=======
 >>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
@@ -1122,11 +1208,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 961
     y: 575
     width: 682
     height: 433
 =======
+=======
+>>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -1137,6 +1226,9 @@ MonoBehaviour:
     height: 248
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 888b8f4a (ok)
+=======
 >>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
