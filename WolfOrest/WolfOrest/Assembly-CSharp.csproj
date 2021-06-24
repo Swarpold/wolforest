@@ -65,15 +65,14 @@
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
     <Compile Include="Assets\Scripts\PostProcessingScript.cs" />
     <Compile Include="Assets\Scripts\MyPhoton\Player_Photon.cs" />
-    <Compile Include="Assets\Scripts\VotePlayerItem.cs" />
-    <Compile Include="Assets\Scripts\VotingManager.cs" />
     <Compile Include="Assets\Scripts\AU_Body.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\Unactive.cs" />
     <Compile Include="Assets\Scripts\RoomManager.cs" />
     <Compile Include="Assets\Scripts\Launcher.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
-    <Compile Include="Assets\Quit.cs" />
+    <Compile Include="Assets\Scripts\VotingManager.cs" />
+    <Compile Include="Assets\Scripts\VotePlayerItem.cs" />
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
