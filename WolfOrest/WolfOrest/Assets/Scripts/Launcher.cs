@@ -18,7 +18,6 @@ public class Launcher : MonoBehaviourPunCallbacks
     [SerializeField] GameObject roomListItemPrefab;
     [SerializeField] GameObject PlayerListItemPrefab;
     [SerializeField] GameObject startGameButton;
-    private GameObject _newPlayer;
 
     void Awake()
     {
@@ -120,10 +119,5 @@ public class Launcher : MonoBehaviourPunCallbacks
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
         Instantiate(PlayerListItemPrefab, playerListContent).GetComponent<PlayerListItem>().SetUp(newPlayer);
-    }
-
-    public void DestroyPlayer()
-    {
-        PhotonNetwork.Destroy(_newPlayer.GetComponent<PhotonView>());
     }
 }
