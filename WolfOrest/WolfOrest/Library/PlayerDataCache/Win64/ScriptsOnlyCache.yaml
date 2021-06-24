@@ -16,16 +16,11 @@ ScriptsOnlyBuild:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     - Rackets
     - RaketAI
     - RoomListItem
     - RoomManager
     - tagManager
-=======
-    - RoomListItem
-    - RoomManager
->>>>>>> parent of 888b8f4a (ok)
 =======
     - RoomListItem
     - RoomManager
@@ -112,11 +107,8 @@ ScriptsOnlyBuild:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
-=======
->>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -171,7 +163,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 726}
     - Class: 114
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -287,36 +278,14 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
 >>>>>>> parent of 888b8f4a (ok)
-=======
-      Script: {instanceID: 1840}
-    - Class: 114
-      Script: {instanceID: 2318}
-    - Class: 114
-      Script: {instanceID: 2856}
-    - Class: 114
-      Script: {instanceID: 2930}
-    - Class: 114
-      Script: {instanceID: 3478}
-    - Class: 114
-      Script: {instanceID: 3968}
-    - Class: 114
-      Script: {instanceID: 4700}
-    - Class: 114
-      Script: {instanceID: 4846}
-    - Class: 115
-      Script: {instanceID: 0}
->>>>>>> parent of 888b8f4a (ok)
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     - Class: 212
       Script: {instanceID: 0}
-=======
->>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -450,7 +419,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4980}
     - Class: 114
 <<<<<<< HEAD
-<<<<<<< HEAD
       Script: {instanceID: 5028}
     - Class: 114
       Script: {instanceID: 5158}
@@ -460,51 +428,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5284}
     - Class: 114
       Script: {instanceID: 5320}
-=======
-      Script: {instanceID: 2102}
-    - Class: 114
-      Script: {instanceID: 2458}
-    - Class: 114
-      Script: {instanceID: 2584}
-    - Class: 114
-      Script: {instanceID: 2626}
-    - Class: 114
-      Script: {instanceID: 2724}
-    - Class: 114
-      Script: {instanceID: 2728}
-    - Class: 114
-      Script: {instanceID: 2856}
-    - Class: 114
-      Script: {instanceID: 2930}
-    - Class: 114
-      Script: {instanceID: 2940}
-    - Class: 114
-      Script: {instanceID: 3292}
-    - Class: 114
-      Script: {instanceID: 3336}
-    - Class: 114
-      Script: {instanceID: 3674}
-    - Class: 114
-      Script: {instanceID: 3772}
-    - Class: 114
-      Script: {instanceID: 3986}
-    - Class: 114
-      Script: {instanceID: 4048}
-    - Class: 114
-      Script: {instanceID: 4112}
-    - Class: 114
-      Script: {instanceID: 4128}
-    - Class: 114
-      Script: {instanceID: 4342}
-    - Class: 114
-      Script: {instanceID: 4404}
-    - Class: 114
-      Script: {instanceID: 4406}
-    - Class: 114
-      Script: {instanceID: 4564}
-    - Class: 114
-      Script: {instanceID: 4664}
->>>>>>> parent of 888b8f4a (ok)
 =======
       Script: {instanceID: 2102}
     - Class: 114
@@ -880,7 +803,6 @@ ScriptsOnlyBuild:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       Hash: 303ad70ce203ad874efe2965d0fbcff9
     assemblyName: Unity.Analytics.Tracker.dll
     namespaceName: UnityEngine.Analytics
@@ -893,8 +815,6 @@ ScriptsOnlyBuild:
     className: AnalyticsTracker
   - hash:
       serializedVersion: 2
-=======
->>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
 =======
@@ -1827,9 +1747,6 @@ ScriptsOnlyBuild:
     className: Unactive
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 888b8f4a (ok)
-=======
 >>>>>>> parent of 888b8f4a (ok)
 =======
 >>>>>>> parent of 888b8f4a (ok)
