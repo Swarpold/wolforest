@@ -14,7 +14,6 @@ ScriptsOnlyBuild:
     - PlayerMovement
     - Player_Photon
 <<<<<<< HEAD
-<<<<<<< HEAD
     - Rackets
     - RaketAI
     - RoomListItem
@@ -27,10 +26,6 @@ ScriptsOnlyBuild:
     - VotePlayerItem
     - VotingManager
 >>>>>>> 888b8f4a9c12c5a23a4a58d0c50e988161e45c2f
-=======
-    - RoomListItem
-    - RoomManager
->>>>>>> parent of 888b8f4a (ok)
     PhotonUnityNetworking.Editor.dll:
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
@@ -96,20 +91,19 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.RectMask2D
-<<<<<<< HEAD
 <<<<<<< HEAD
     - UnityEngine.UI.Slider
 =======
 >>>>>>> 888b8f4a9c12c5a23a4a58d0c50e988161e45c2f
     - UnityEngine.UI.Text
-=======
->>>>>>> parent of 888b8f4a (ok)
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
     Assets/Scenes/Game.unity:
@@ -181,7 +175,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2996}
     - Class: 114
 <<<<<<< HEAD
-<<<<<<< HEAD
       Script: {instanceID: 3028}
     - Class: 114
       Script: {instanceID: 3168}
@@ -216,23 +209,30 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1752}
     - Class: 114
-=======
->>>>>>> parent of 888b8f4a (ok)
       Script: {instanceID: 1840}
     - Class: 114
-      Script: {instanceID: 2318}
+      Script: {instanceID: 1992}
     - Class: 114
-      Script: {instanceID: 2856}
+      Script: {instanceID: 2114}
     - Class: 114
-      Script: {instanceID: 2930}
+      Script: {instanceID: 2320}
     - Class: 114
-      Script: {instanceID: 3478}
+      Script: {instanceID: 2460}
     - Class: 114
-      Script: {instanceID: 3968}
+      Script: {instanceID: 2472}
     - Class: 114
-      Script: {instanceID: 4700}
+      Script: {instanceID: 2588}
     - Class: 114
-<<<<<<< HEAD
+      Script: {instanceID: 2732}
+    - Class: 114
+      Script: {instanceID: 2860}
+    - Class: 114
+      Script: {instanceID: 2934}
+    - Class: 114
+      Script: {instanceID: 2942}
+    - Class: 114
+      Script: {instanceID: 3342}
+    - Class: 114
       Script: {instanceID: 3484}
     - Class: 114
       Script: {instanceID: 3974}
@@ -250,11 +250,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
 =======
 >>>>>>> 888b8f4a9c12c5a23a4a58d0c50e988161e45c2f
-=======
-      Script: {instanceID: 4846}
-    - Class: 115
-      Script: {instanceID: 0}
->>>>>>> parent of 888b8f4a (ok)
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
@@ -262,6 +257,10 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
@@ -348,7 +347,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2694}
     - Class: 114
 <<<<<<< HEAD
-<<<<<<< HEAD
       Script: {instanceID: 2834}
     - Class: 114
       Script: {instanceID: 2888}
@@ -360,15 +358,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3028}
 =======
       Script: {instanceID: 2104}
-=======
-      Script: {instanceID: 2102}
->>>>>>> parent of 888b8f4a (ok)
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 2460}
     - Class: 114
-      Script: {instanceID: 2584}
+      Script: {instanceID: 2588}
     - Class: 114
-<<<<<<< HEAD
       Script: {instanceID: 2630}
 >>>>>>> 888b8f4a9c12c5a23a4a58d0c50e988161e45c2f
     - Class: 114
@@ -414,50 +408,41 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5320}
 =======
       Script: {instanceID: 2732}
-=======
-      Script: {instanceID: 2626}
     - Class: 114
-      Script: {instanceID: 2724}
->>>>>>> parent of 888b8f4a (ok)
+      Script: {instanceID: 2860}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2934}
     - Class: 114
-      Script: {instanceID: 2856}
+      Script: {instanceID: 2944}
     - Class: 114
-      Script: {instanceID: 2930}
+      Script: {instanceID: 3298}
     - Class: 114
-      Script: {instanceID: 2940}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3292}
+      Script: {instanceID: 3680}
     - Class: 114
-      Script: {instanceID: 3336}
+      Script: {instanceID: 3778}
     - Class: 114
-      Script: {instanceID: 3674}
+      Script: {instanceID: 3992}
     - Class: 114
-      Script: {instanceID: 3772}
+      Script: {instanceID: 4054}
     - Class: 114
-      Script: {instanceID: 3986}
+      Script: {instanceID: 4118}
     - Class: 114
-      Script: {instanceID: 4048}
+      Script: {instanceID: 4134}
     - Class: 114
-      Script: {instanceID: 4112}
+      Script: {instanceID: 4348}
     - Class: 114
-      Script: {instanceID: 4128}
+      Script: {instanceID: 4410}
     - Class: 114
-      Script: {instanceID: 4342}
+      Script: {instanceID: 4412}
     - Class: 114
-      Script: {instanceID: 4404}
+      Script: {instanceID: 4570}
     - Class: 114
-      Script: {instanceID: 4406}
+      Script: {instanceID: 4670}
     - Class: 114
-      Script: {instanceID: 4564}
-    - Class: 114
-<<<<<<< HEAD
       Script: {instanceID: 26768}
 >>>>>>> 888b8f4a9c12c5a23a4a58d0c50e988161e45c2f
-=======
-      Script: {instanceID: 4664}
->>>>>>> parent of 888b8f4a (ok)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -696,7 +681,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
 <<<<<<< HEAD
-<<<<<<< HEAD
       Hash: 303ad70ce203ad874efe2965d0fbcff9
     assemblyName: Unity.Analytics.Tracker.dll
     namespaceName: UnityEngine.Analytics
@@ -715,8 +699,6 @@ ScriptsOnlyBuild:
 >>>>>>> 888b8f4a9c12c5a23a4a58d0c50e988161e45c2f
   - hash:
       serializedVersion: 2
-=======
->>>>>>> parent of 888b8f4a (ok)
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -799,6 +781,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 33c05bfe34734873ffbcc6af0f31a893
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VotingManager
   - hash:
       serializedVersion: 2
       Hash: 46a296a078af6e2a02857aa18e9cdf2b
@@ -991,6 +979,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Unactive
   - hash:
       serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
@@ -1640,14 +1634,10 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-<<<<<<< HEAD
     className: Quit
 >>>>>>> 888b8f4a9c12c5a23a4a58d0c50e988161e45c2f
-=======
-    className: Unactive
->>>>>>> parent of 888b8f4a (ok)
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/Chiche Eliott/Desktop/Build/Wolf'Orest.exe
+  playerPath: C:/Users/gui-l/OneDrive/Bureau/Wolf'Orest.exe
