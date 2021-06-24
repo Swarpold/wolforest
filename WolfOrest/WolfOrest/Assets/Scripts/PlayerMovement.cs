@@ -375,7 +375,7 @@ public class PlayerMovement : MonoBehaviourPun, IPunObservable
         var testPlayers = GameObject.FindGameObjectsWithTag("Player");
         foreach (GameObject player in testPlayers)
         {
-            if (player.GetPhotonView().IsMine)
+            //if (player.GetPhotonView().IsMine)
             {
                 AU_Body tempBody = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "AU_Body"), transform.position, transform.rotation).GetComponent<AU_Body>();
                 
