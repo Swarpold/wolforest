@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 637546943749382980
     m_Hash: 2518973661
+=======
+      ticks: 637601348125397156
+    m_Hash: 1878638848
+>>>>>>> Stashed changes
   m_LockFileStatus:
     m_FilePath: C:/Users/franc/OneDrive/Bureau/wolforest/wolforest/WolfOrest/WolfOrest/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 637546944545391999
     m_Hash: 3095297913
+=======
+      ticks: 637601354440432829
+    m_Hash: 3834639486
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
