@@ -12,7 +12,7 @@ public class VotingManager : MonoBehaviourPun
     [SerializeField] private GameObject _emergencyMeetingWindow;
 
     [SerializeField] private Button _skipVoteBtn;
-    //[SerializeField] private PlayerMovement _network; (A mettre en Compenent de VotingManager)
+    //[SerializeField] private Launcher _network;
 
     [SerializeField] private VotePlayerItem _votePlayerItemPrefab;
 
